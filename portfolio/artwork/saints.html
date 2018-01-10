@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <link rel="stylesheet"
+    	  href="../../css/master.css">
+
+    <link rel="stylesheet"
+          href="bootstrapgrid.css">
+
+    <title>Saints</title>
+  </head>
+  <body>
+    <div id="content">
+      <div id="heading">
+        <a href="/index.html"><img id="logo"
+             class="heading-boxes"
+             src="http://emilykorzekwa.com/images/kas_logo.png"
+             alt="logo"></a>
+        <div class="heading-boxes">
+          <a href="/index.html"><h3 id="title">Korzekwa Art Studio</h3></a>
+        </div>
+        <div id="menu" class="heading-boxes">
+          <ul>
+            <li><a href="../../about_page/about.html">About</a></li>
+            <li><a href="../gallery.html">Portfolio</a></li>
+            <li><a href="../../resume/resume.html">Resume</a></li>
+            <li><a href="https://www.etsy.com/shop/KorzekwaArtStudio"
+                   target="_blank">Shop</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h1>Saints</h1>
+    </div>
+    <div class="info" id="intro">
+        <p>
+            I have always found the lives of the saints fascinating. Each saint is unique, both in their background and how God acted in their lives. My goal for this series is to tell the story of a saint by connecting historical art styles of depicting saints, such as Eastern iconography, while also incorporating my own style. Each piece is based on researching the biography of the saint and previous images of that saint for the historical details and the symbols traditionally associated with the saint.
+        </p>
+    </div>
+
+      <div class="container-fluid">
+	<div>
+	  <div class="row content">
+	    <div class="col-md-3">
+	      <div class="container-fluid">
+		<div class="row">
+		  <h3 id="name-box"></h3>
+		  <div class="info" id="description-box"></div>
+		</div>
+	        <div class="row">
+		  <div class="info" id="info-box">
+		    <p id="media-box"></p>
+		    <p id="dimensions-box"></p>
+		    <p id="year-box"></p>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+
+	    <div class="col-md-9">
+	      <div class="container-fluid">
+		<div class="row">
+		  <div class="col-sm-11">
+		    <img id="main-image" class="center"></img>
+		    <a class="left carousel-button" id="select-left" role="button">
+		      <i class="material-icons">chevron_left</i>
+		    </a>
+		    <a class="right carousel-button" id="select-right" role="button">
+	              <i class="material-icons">chevron_right</i>
+                    </a>
+		  </div>
+		  <div class="col-sm-1">
+		    <ul class="center saints-list" id="thumbs-container"></ul>
+        	  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div id="footing">
+        <div id="email" class="footing-boxes">
+          <a id="mail" href="mailto:emily.korzekwa@gmail.com">emily.korzekwa@gmail.com</a>
+        </div>
+        <div id="social-media" class="footing-boxes">
+          <ul>
+            <li><a href="https://www.instagram.com/saints_illustrated/"
+                   target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+		items = [
+			{
+				source: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_catherine_of_bologna_web.jpg",
+				thumbnail: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_catherine_of_bologna_web.jpg",
+				name: "Saint Catherine of Bologna",
+				description: "Saint Catherine of Bologna is the first in a series of saints because she is the patron saint of artists. She was a Poor Clare nun in 15th century Italy, and she was associated with lilies. Her feast day is March 9th.",
+				media: "Colored pencil and ink on bristol paper",
+				dimensions: "8 in x 10 in",
+				year: "2017"
+			},
+			{
+				source: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_ambrose_web.jpg",
+				thumbnail: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_ambrose_web.jpg",
+				name: "Saint Ambrose",
+				description: "Saint Ambrose was a bishop of Milan in the 4th century. The honeycomb pattern in his halo alludes to his historical association with bees. He carries a staff and wears a mitre to show that he was a bishop. Although there is little historical evidence of whether or not bishops wore the mitre in the 4th century, I decided to include it because it would more clearly communicate to modern viewers that he was a bishop, and not just a priest. His feast day is December 2nd.",
+				media: "Colored pencil and ink on bristol paper",
+				dimensions: "8 in x 10 in",
+				year: "2017"
+			},
+			{
+				source: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_cecilia_web.jpg",
+				thumbnail: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_cecilia_web.jpg",
+				name: "Saint Cecilia",
+				description: "As the patron saint of music, Saint Cecilia is often depicted playing a musical instrument. She was a Roman woman of a noble house in the 2nd century and she is shown here wearing the clothes and jewelry she possibly could have worn. The palm branch she holds is a symbol of her martyrdom. Her feast day is November 22nd.",
+				media: "Colored pencil and ink on bristol paper",
+				dimensions: "8 in x 10 in",
+				year: "2017",
+                shop: "https://www.etsy.com/listing/555158685/saint-cecilia-icon-8x10-fine-art-print"
+			},
+			{
+				source: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_joan_of_arc_web.jpg",
+				thumbnail: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_joan_of_arc_web.jpg",
+				name: "Saint Joan of Arc",
+				description: "Born a peasant in 15th century France, during the 100 Years War, Saint Joan of Arc went to the Dauphin of France and requested command of the French army, declaring it was the will of God. He granted her request and she commanded all the armies of France at the age of 17. She was captured and burned at the stake for heresy when she was 19, but was later exonerated and canonized a saint. She is the patron saint of France and female soldiers, and her feast day is May 30th.",
+				media: "Colored pencil and ink on bristol paper",
+				dimensions: "8 in x 10 in",
+				year: "2017",
+                shop: "https://www.etsy.com/listing/555682143/saint-joan-of-arc-icon-8x10-fine-art"
+			},
+			{
+				source: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_francis_of_assisi_1_web.jpg",
+				thumbnail: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_francis_of_assisi_1_web.jpg",
+				name: "Saint Francis of Assisi",
+				description: "Saint Francis of Assisi is known for his dedication to the poor and his love for all God's creatures. He founded the Franciscan Order which can now be found all over the world. His feast day is October 4th, and he is the patron saint of animals, the environment, and Italy.",
+				media: "Colored pencil and ink on bristol paper",
+				dimensions: "8 in x 10 in",
+				year: "2017",
+                shop: "https://www.etsy.com/listing/560996961/saint-francis-of-assisi-icon-8x10-fine"
+			},
+			{
+				source: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_elizabeth_of_hungary_web.jpg",
+				thumbnail: "http://emilykorzekwa.com/portfolio/artwork/art_images/saint_elizabeth_of_hungary_web.jpg",
+				name: "Saint Elizabeth of Hungary",
+				description: "Saint Elizabeth was born a princess of Hungary in the early 13th century. Although she married the Landgrave of Thuringia according to her family's political goals, she and her husband deeply loved each other. She was very generous, sharing whatever she had with the poor. After her husband died, she became a Third Order Franciscan and tended to the sick. Her feast day is November 17th and she is the patron saint of hospitals, nurses, brides, and the Third Order of Saint Francis.",
+				media: "Colored pencil and ink on bristol paper",
+				dimensions: "8 in x 10 in",
+				year: "2017",
+                shop: "https://www.etsy.com/listing/572198845/saint-elizabeth-of-hungary-icon-8x10"
+			},
+			{
+				source: "http://emilykorzekwa.com/portfolio/artwork/art_images/our_lady_of_guadalupe_1_web.jpg",
+				thumbnail: "http://emilykorzekwa.com/portfolio/artwork/art_images/our_lady_of_guadalupe_1_web.jpg",
+				name: "Our Lady of Guadalupe",
+				description: "In the 16th century the image of Mary, the Mother of God, as Our Lady of Guadalupe appeared on the tilma of Saint Juan Diego as part of a sign to the bishop of Mexico City that he should build a church at the site of the apparition. The original image is enshrined in the Minor Basilica of Our Lady of Guadalupe in Mexico City. Her feast day is the date of the apparition, December 12th, and she is the patron saint of Mexico and the Americas.",
+				media: "Colored pencil and ink on bristol paper",
+				dimensions: "8 in x 10 in",
+				year: "2017",
+                shop: "https://www.etsy.com/listing/565943562/our-lady-of-guadalupe-icon-8x10-fine-art"
+			},
+		];
+
+		var selectedIndex;
+
+		$(document).ready(function() {
+			populateThumbnails();
+			$("#select-right").click(selectNext);
+			$("#select-left").click(selectPrev);
+            if(window.location.hash){
+                selectItem(window.location.hash.substring(1));
+            }
+            else{
+                selectItem(0);
+            }
+		});
+
+		function populateThumbnails(){
+			var thumbsContainer = $("#thumbs-container");
+			for(var i = 0; i < items.length; i++){
+				var item = items[i];
+				var thumbnailElement = document.createElement("li");
+				const linkElement = document.createElement("a");
+				linkElement.classList.add("content-thumbnail");
+				linkElement.innerHTML = '<img src="' + item["thumbnail"] + '" alt="' + item["name"] + '" title="' + item["name"] + '"></img>';
+				const index = i;
+                linkElement.href = "#" + index;
+				linkElement.addEventListener("click", function(){
+					selectItem(index);
+				});
+				thumbnailElement.append(linkElement);
+				thumbsContainer.append(thumbnailElement);
+			}
+		}
+
+		function selectNext(){
+			selectItem((selectedIndex + 1) % items.length);
+		}
+
+		function selectPrev(){
+			if(selectedIndex == 0){
+				selectItem(items.length - 1);
+			}
+			else{
+				selectItem(selectedIndex - 1);
+			}
+		}
+
+		function selectItem(index){
+			selectedIndex = index;
+			var item = items[index];
+			$("#name-box").text(item["name"]);
+			$("#media-box").text(item["media"]);
+			$("#dimensions-box").text(item["dimensions"]);
+			$("#description-box").text(item["description"]);
+            if(item["shop"] !== undefined){
+                var paragraph = document.createElement("p");
+                var link = document.createElement("a");
+                link.href = item["shop"];
+                link.target = "_blank"; //force link to open in a new tab/window
+                link.innerHTML = " Prints of " + item["name"] + " are available at my Etsy shop, here.";
+                link.id = "etsy-link";
+
+                paragraph.append(link);
+                $("#description-box").append(paragraph);
+            }
+			$("#year-box").text(item["year"]);
+			$("#main-image").attr("src", item["source"]);
+			var thumbnailItems = document.getElementById("thumbs-container").getElementsByTagName("li");
+			for(var i = 0; i < thumbnailItems.length; i++){
+				if(i == index){
+					thumbnailItems[i].firstChild.classList.remove("thumbnail-inactive");
+				}
+				else{
+					thumbnailItems[i].firstChild.classList.add("thumbnail-inactive");
+				}
+			}
+		}
+
+	</script>
+
+
+
+</html>

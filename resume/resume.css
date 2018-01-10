@@ -1,0 +1,115 @@
+
+#featured-image{
+  height: 1205px;
+  width: 1023px;
+  margin: 0px auto 30px auto;
+}
+
+p{
+    font-size: 1.25rem;
+}
+
+.row {
+    padding: 15px 35px;
+}
+
+.row h3{
+  color: #760057;
+  font-size: 24px;
+  border-bottom: 2px solid #ca9623;
+  padding: 0px 0px 10px 10px;
+  margin: 0px 0px 20px 0px;
+}
+
+.ul-no-bullet {
+    list-style: none;
+}
+
+#work-experience-list > li {
+    width: 100%;
+}
+
+.work-experience > h4 {
+    display: inline-block;
+}
+
+.work-title {
+    width: 33%;
+}
+.work-employer {
+    width: 33%;
+    text-align: center;
+}
+.work-date {
+    text-align: right;
+    width: 33%;
+}
+
+.text-boxes{
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    padding: 0px 10px;
+    margin-left: 2%;
+    vertical-align: top;
+}
+
+.row > .normal-list {
+    margin-left: 4%;
+}
+
+.text-boxes > .normal-list {
+    margin-left: 2%;
+}
+
+.normal-list > li{
+    display: list-item;
+}
+.education > p{
+    margin-left: 5px;
+}
+
+.contact-info{
+    display: inline-block;
+    width: 100%;
+}
+.contact-info > li > h3{
+    margin: 0;
+    border: none;
+}
+.contact-info > li >  h4{
+    margin: 0;
+}
+
+.contact-info > li{
+    width: 24%;
+}
+
+
+li{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+}
+
+#honors{
+    padding: 0px 0px 10px 10px;
+}
+
+#skills-software {
+    display: inline-block;
+    width: 66%;
+    float: top;
+}
+
+#skills-traditional {
+    display: inline-block;
+    width: 33%;
+}
+
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+    font-size: 18px;
+    padding: 5px;
+}

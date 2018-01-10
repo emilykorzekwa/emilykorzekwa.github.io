@@ -1,0 +1,44 @@
+.about-boxes{
+  width: 550px;
+  display: inline-block;
+  float: left;
+  padding: 20px;
+  margin: 0px 50px 0px 20px;
+}
+
+.about-boxes h3{
+  font-size: 24px;
+  padding: .75rem;
+  border-bottom: 2px solid #ca9623;
+  color: #760057;
+}
+
+.about-boxes p{
+  color: #333;
+  padding: .75rem;
+  font-size: 1.25rem;
+}
+
+#row1{
+  height: 525px;
+  padding-bottom: 30px;
+}
+
+#bio{
+  width: 550px;
+  height: 250px;
+  padding: 2rem;
+  display: inline;
+}
+
+#profile-image{
+  height: 490px;
+  width: 490px;
+  padding: 0px;
+  display: block;
+  float: right; 
+  margin-right: 75px;
+  margin-top: 10px;
+  border: 2px solid #760057;
+}
+

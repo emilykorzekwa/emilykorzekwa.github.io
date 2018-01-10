@@ -1,0 +1,33 @@
+#featured-image{
+  height: 800px;
+  width: 634px;
+  margin: 0px auto 20px auto;
+  background-image: url("http://emilykorzekwa.com/portfolio/artwork/art_images/our_lady_of_guadalupe_1_web.jpg");
+  border: 2px solid #760057;
+}
+
+#description{
+  width: 631px;
+  height: 269px;
+  float: right;
+  background-color: rgba(118, 0, 87, 0.8);
+  color: #ecc;
+  text-align: center;
+  padding: 0rem 1.2rem 1.2rem 1.2rem;
+}
+
+#description h3{
+  font-size: 2rem;
+  padding: 1.1rem;
+  color: #ecc;
+}
+
+#info{
+  padding: 1.1rem;
+  text-align: left;
+}
+
+#img-link{
+  height: 525px;
+  width: 634px;
+}
